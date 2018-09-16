@@ -14,7 +14,9 @@ $ docker run --rm -v $(pwd):$(pwd) -w $(pwd) gwihlidal/fxc /T <target> /E <entry
 
 ## Example
 ```
-% docker run --rm -v $(pwd):$(pwd) -w $(pwd) gwihlidal/fxc /T ps_5_1 /E main simple.hlslMicrosoft (R) Direct3D Shader Compiler 10.1
+% docker run --rm -v $(pwd):$(pwd) -w $(pwd) gwihlidal/fxc /T ps_5_1 /E main simple.hlsl
+
+Microsoft (R) Direct3D Shader Compiler 10.1
 Copyright (C) 2013 Microsoft. All rights reserved.
 
 //
